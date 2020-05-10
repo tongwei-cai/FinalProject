@@ -15,7 +15,7 @@ print("\t5. Insane (2 lives)")
 user_setting = input("Please choose a difficulty by typing its number: ")
 
 # Establish a list of words that can be chosen for the game
-with open("/Users/anniewon/Desktop/myGuessWords.txt") as f:
+with open("/Users/tongweic/Desktop/myGuessWords.txt") as f:
     word_list = f.read().splitlines()
 
 # Inform the user of their selection
